@@ -1,0 +1,35 @@
+{
+        "user":"Someone Else",
+	      "matchNumber": 0,
+        "teamNumber": 1111,
+        "teamName": "Diamondback Turtles",
+        "alliancePartner1": {
+                "teamNumber": 666,
+                "teamName": "Unlucky"
+            },
+            "alliancePartner2": {
+                "teamNumber": 69,
+                "teamName": "Unlucky2"
+            },
+        "notes": "About to win",
+        "telly": {
+            "allianceTellyScalePlaced": 1,
+            "allianceTellySwitchPlaced": 2,
+            "opposingTellySwitchPlaced": 3,
+            "vaultTellyPlaced": 4,
+            "park": true,
+            "selfClimbed": true,
+            "climbOnAnotherRobot": false,
+            "otherRobotsClimbedOn": false,
+            "numberOfBlocks": 100,
+            "penaltyPoints": 0
+        },
+        "auto": {
+            "passAutoLine": true,
+            "startingPosition": 1,
+            "allianceAutoScalePlaced": 2,
+            "allianceAutoSwitchPlaced": 3,
+            "opposingAutoSwitchPlaced": 4,
+            "vaultAutoPlaced": 5
+        }
+}
