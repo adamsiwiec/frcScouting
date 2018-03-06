@@ -54,6 +54,12 @@ const Team = mongoose.model('Team', {
 
 
 
+app.get('/', (req, res) => {
+
+	res.json({
+		'ping': 'pong'
+	})
+})
 
 app.get('/team', (req, res) => {
 	Team.find({}, (err, teams) => {
